@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhatsApp Status Downloader</title>
+  <script src="popup.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      min-width: 300px;
+      font-size: 15px;
+      margin: 0;
+      padding: 10px;
+      background-color: #202020; 
+      color: #ffffff; 
+    }
+
+    .container {
+      width: 300px;
+      margin: 50px auto;
+      background-color: #242424;
+      border: 2px solid #a56dea;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      padding: 5px;
+      
+    }
+
+    header {
+      background-color: #a56dea; 
+      color: #f9f5ff;
+      padding: 20px;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 1.2em;
+    }
+
+    button#download-btn {
+      display: block;
+      margin: 0 auto;
+      background-color: #a56dea;  
+      color: #ead9ff;
+      border: none;
+      border-radius: 20px;
+      padding: 12px 24px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      outline: none;
+      border: 2px solid #a56dea;
+      margin-bottom: 23px;
+    }
+
+    button#download-btn:hover {
+      background-color: #1e1e1e;
+      color: #a56dea;
+      font-weight: bold;
+      border: 2px solid #a56dea;
+    }
+
+    footer {
+      background-color: #a56dea;
+      color: #ead9ff;
+      padding: 10px 20px;
+      text-align: center;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+      margin-top: 20px;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    footer p {
+      font-size: 0.9em;
+      margin: 5px 0;
+    }
+
+    footer img {
+      height: 1.5rem;
+      width: auto;
+      margin-right: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>WhatsApp Status Downloader</h1>
+    </header>
+    <main>
+      <p>Wait for the status to load, then click on the download button!</p>
+      <button id="download-btn">Download Status</button>
+    </main>
+    <footer>
+      <a href="https://github.com/CHXRITH" target="_blank">
+        <i class="fab fa-github"></i> <b>GitHub</b>
+      </a>
+      <p>Extensions by CHXRITH 💜</p>
+    </footer>
+  </div>
+</body>
+</html>
